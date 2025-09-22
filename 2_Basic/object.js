@@ -6,3 +6,12 @@ let footballPlayerDetails = {
 
 }
 console.log(footballPlayerDetails)
+
+let student = {
+    "Full Name " : "Sirzan chaudhary",
+    email : "sirzcanchaudhary143@gmail.com",
+    subject : [ "C", "java", "flutter", "js", "react"],
+    contact : 7772841392
+
+}
+console.log(student)
