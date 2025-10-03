@@ -11,3 +11,12 @@ let Timer = setInterval(function (){
 stopbtn.addEventListener('click',()=>{
     clearInterval(Timer);
 })
+
+startbtn.addEventListener('click', () =>{
+    clearInterval(Timer)
+
+    setInterval(function (){
+    let date = new Date();
+    clock.innerHTML = date.toLocaleTimeString();
+},1000);
+})
